@@ -14,7 +14,8 @@ export default function ContactModal({ isOpen, onClose, showToast }) {
 
   if (!isOpen) return null;
 
-  const whatsappNumber = '919876543210';
+  const whatsappNumber = '918918528110';
+  const whatsappDisplay = '+91 89185 28110';
 
   const sendViaWhatsApp = (e) => {
     e.preventDefault();
