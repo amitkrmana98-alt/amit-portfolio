@@ -10,8 +10,8 @@ const WhatsAppIcon = ({ className = "w-5 h-5" }) => (
 
 export default function Contact({ onOpenContact, onOpenResume, showToast }) {
   const email = 'akrmanna95@gmail.com';
-  const whatsappNumber = '919876543210';
-  const whatsappDisplay = '+91 98765 43210';
+  const whatsappNumber = '918918528110';
+  const whatsappDisplay = '+91 89185 28110';
   const whatsappDefaultMsg = "Hi Amit, I came across your portfolio and would like to connect!";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappDefaultMsg)}`;
   
